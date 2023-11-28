@@ -1,9 +1,7 @@
 //your JS code here. If required.
 let item= document.getElementById("fname");
-item.addEventListener("keyup",(e)=>
+item.addEventListener("blur",(e)=>
 {
-    if(e.key=="Enter")
-    {
         item.value= item.value.toUpperCase();
-    }
+    
 })
